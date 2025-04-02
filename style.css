@@ -1,0 +1,48 @@
+/* Reset margin and padding for all elements */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(bg.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh; /* Ensures the entire image fits within the screen */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#scorebox {
+    position: absolute;
+    right: 200px;
+    top: 10px;
+}
+#hscorebox {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+
+#playarea {
+    background: linear-gradient(rgb(159, 120, 120), rgb(219, 219, 93)); /* Fixed gradient syntax */
+    width: 90vmin;
+    height: 92vmin;
+    border: black 2px solid;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+}
+.snake {
+    background-color: rgb(54, 28, 28);
+}
+
+.food {
+    background-color: yellow;
+}
+
+.head {
+    background-color: red;
+}
