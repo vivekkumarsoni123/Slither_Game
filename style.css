@@ -37,6 +37,7 @@ body {
 }
 .snake {
     background-color: rgb(54, 28, 28);
+    border-radius: 8px;
 }
 
 .food {
@@ -45,4 +46,5 @@ body {
 
 .head {
     background-color: red;
+    border-radius: 8px;
 }
